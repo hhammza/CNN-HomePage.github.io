@@ -1,0 +1,147 @@
+#footer{
+    display: flexbox;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    padding: 50px 20px 50px 20px;
+}
+#searchBar{
+    margin-top: 50px;
+    position: relative;
+    width:100%;
+}
+#searchBarInput{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+}
+#searchBarBtn{
+    position: absolute;
+     right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footerSearchImg{
+    width: 40px;
+    height: 40px;
+}
+/* first */
+#first{
+    margin: none;
+    padding-top: 30px;
+    display: flex;
+}
+#firstDataUl{
+    color:rgb(229, 239, 247);
+    list-style-type: none;
+}
+#firstDataUl h5{
+    color:rgb(226, 231, 236);
+    font-weight: bold;
+}
+#firstDataUl li:hover{
+    text-decoration: underline;
+    color: white;
+}
+#firstD{
+    margin-right: 30px;
+}
+
+/* fourth */
+#fourth{
+    padding: 13px 0px 13px 0px;
+}
+#logoFooter{
+    display: flexbox;
+    justify-content: center;
+    width:50px;
+    height: 50px;
+    margin-right: 450px;
+}
+.horizontalBarrier{
+    height: .5px;
+    color: white;
+    margin:10px 0px 10px 0px;
+    padding: 0%;
+}
+#fourthData{
+    color:rgb(229, 239, 247);
+    margin-right: 20px;
+}
+#fourthData:hover{
+    color:white;
+}
+span #fourthData{
+    font-weight: bold;
+}
+.icons{
+    padding-top: 5px;
+    font-size: 25px;
+}
+/* fifith */
+#fifth{
+    display:flexbox;
+}
+#fifthData{
+    color:rgb(229, 239, 247);
+    font-size: 13px;
+    margin-right: 12px;
+}
+#fifthData:hover{
+    text-decoration: underline;
+    color: white;
+}
+#fifthDataInfo{
+    color:rgb(229, 239, 247);
+    font-size: 13px;
+}
+
+
+/* footerAbovePart */
+#footerAbove{
+    /* margin-left: 11px; */
+}
+#missed{
+    color: white;
+    font-weight: bolder;
+    margin-left: 11px;
+}
+.footerAboveContent{
+    display:flex;
+    margin-left: 11px;
+}
+#picDiv{
+    width:700px;
+}
+#belowPicHeading{
+    color:white;
+    font-size: 21px;
+    font-weight: bold;
+}
+#belowPicHeading:hover{
+    text-decoration: underline;
+}
+#footerAboveImg{
+    width:700px;
+    margin: 20px 0px 20px 0px;
+}
+#footerAboveImg:hover{
+    opacity: 0.6;
+}
+.advertise{
+    /* margin: 80px 100px 70px 110px; */
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 70px 0px;
+}
+
+#links{
+    color:white;
+    margin: 20px 0px 0px 40px;
+    font-size: 17px;
+}
+#links:hover{
+    text-decoration: underline;
+}

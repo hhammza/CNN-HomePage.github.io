@@ -1,0 +1,155 @@
+/* news */
+#containerNews{
+    display: flex;
+}
+#newsHeading{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+#newsHeading:hover{
+    text-decoration: underline;
+}
+#news{
+    margin: 10px 0px 70px 35px;
+}
+.photoCardLinkNews{
+    text-decoration: none;
+    margin-left: 0px;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+.photoCardLinkNews:hover{
+    text-decoration: underline;
+}
+.photoCardLinkN{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+.photoCardLinkN p{
+    color:rgb(145, 3, 3);
+}
+.photoCardLinkN:hover{
+    text-decoration: underline;
+}
+.new2{
+    margin: 14px 0px 0px 0px;
+}
+.news3{
+    margin-top: 14px;
+}
+#new2Img{
+    width:288px;
+    height:auto;
+}
+#horizontalCardImg{
+    width: 130px;
+}
+.horizontalCard{
+    display: flex;
+}
+#smallLinks:hover{
+    text-decoration: underline;
+}
+#smallLinkhori{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+#smallLinkhori:hover{
+    text-decoration: underline;
+}
+.card-body{
+    margin: 0px 0px 0px 20px;
+}
+#progress-bar{
+    height:4px;
+    border-radius: 0;
+    margin: 0px 0px 5px 0px;
+}
+.news4{
+    margin: 0px 25px 0px 0px;
+}
+.new1{
+    margin: 0px 25px 0px 0px;
+    width: 35rem;
+}
+#news5{
+    margin: 2px 25px 0px 0px;
+}
+#belowProgress{
+    margin: 0px 0px 20px 0px;
+}
+.advertise{
+    margin: 90px 0px 100px 0px;
+}
+.photoCardLinkN span{
+    color: rgb(165, 38, 38);
+    font-weight: 600;
+}
+
+/* featured */
+#featured1{
+    display: flex;
+    margin: 20px 30px 15px 0px;
+}
+#featured{
+    display:flexbox;
+    margin:50px 0px 35px 35px;
+}
+#featureAdd{
+    display: block;
+    justify-content: center;
+    margin: 9px 0px 0px 45px;
+}
+.featuredFirst{
+    width: 24rem;
+    margin: 0px 23px 0px 0px;
+}
+
+
+
+/* photos */
+#body{
+    margin:0;
+    padding:0;
+}
+#photos{
+    margin: 50px 0px 20px 35px;
+}
+#photosDiv{
+    display: flex;
+}
+#photosDivOuter{
+    display: flexbox;
+}
+#containerPhotos{
+    display: flex;
+}
+#card{
+    border: none;
+    margin: 0px 25px 30px 0px;
+}
+.photoCardLink{
+    text-decoration: none;
+    color: black;
+}
+.photoCardLink:hover{
+    text-decoration: underline;
+}
+#containerPhotos{
+    margin:20px 0px 0px 0px;
+}
+#photoAdd{
+    justify-content: center;
+    margin: 2px 0px 0px 90px;
+}
+#photosHeading{
+    font-size: 35px;
+    font-weight: 700;
+}

@@ -1,0 +1,123 @@
+#banner{
+    margin:0%;
+    padding:90px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+
+/* header */
+#navBelowBanner{
+    /* margin: 0px; */
+    padding: 0px;
+    /* position: fixed; */
+}
+.navbar{
+    position: absolute;
+}
+.container-fluid{
+    margin: 0%;
+    background-color: black;
+    border: none;
+}
+
+/* header logo, header search */
+#logo, #search{
+    width: 35px;
+    height: 35px;
+}
+
+/* header Options */
+#headerOptions{
+    font-size: 15px;
+    color:white;
+}
+/* sign In btn */
+#signIn{
+    background-color: black;
+    border: 1px solid white;
+    font-size: small;
+}
+/* sign In btn */
+#signIn:hover{
+    background-color: rgb(51, 51, 51);
+}
+/* DropDown */
+#dropdown{
+    display:inline-block;
+    position: relative;
+}
+/* more dropDown */
+#more{
+    font-size: 15px;
+    color:white;
+    margin-right: 120px;
+}
+#more:hover #dropDownItems{
+    display: block;
+}
+
+#dropDownItems{
+    font-size: small;
+    background-color: black;
+    border: 1px solid rgb(51, 51, 51);
+}
+#dropdownOptions:hover{
+    background-color: rgb(51, 51, 51);
+}
+/* dropDown Options */
+li #dropdownOptions{
+    color:white;
+}
+/* show dropdown options when mouse is onIt */
+#dropdown:hover #dropDownItems{
+    display: block;
+}
+
+#horizontalScroll {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 0%;
+}
+
+#scroll-content {
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin: 0px 30px 0px 30px;
+}
+
+#scroll-Items {
+    display: inline-block;
+    padding: 50px 10px 30px 10px;
+    font-size: large;
+    color: black;
+}
+
+#scroll-content a:hover {
+    text-decoration: underline;
+}
+/* headerScrollbtns */
+#scroll-btn{
+    background-color:white;
+    border: none;
+    border-radius: 50%;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+#scroll-btn-left{
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
